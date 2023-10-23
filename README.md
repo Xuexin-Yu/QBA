@@ -12,7 +12,7 @@ Here, we provide example Stata code to calculate the simulation estimates and in
 gen rownumber=_n
 	   
 ****1.1 sensitivity value for men**********	   
-gen MIN=0.25
+gen MIN=0.25																										
 gen MAX=0.30 
 gen DL=MIN+0.015
 gen DU=MAX-0.015
